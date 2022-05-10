@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:9000/",
+  "buildOrder" : 18,
+  "buildName" : "Sanity Tests Web #18",
+  "buildUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure"
+} ]

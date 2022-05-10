@@ -1,0 +1,1167 @@
+{
+  "4859b1d467bd5447d84fa1ee13091a3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "d6ae80b2407d566f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/d6ae80b2407d566f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898681075,
+        "stop" : 1650898681446,
+        "duration" : 371
+      }
+    }, {
+      "uid" : "ce6cf015bfceaa59",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/ce6cf015bfceaa59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898489554,
+        "stop" : 1650898489986,
+        "duration" : 432
+      }
+    }, {
+      "uid" : "d90c8ea76dd6b992",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/d90c8ea76dd6b992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898338791,
+        "stop" : 1650898339198,
+        "duration" : 407
+      }
+    }, {
+      "uid" : "1486ba3f935d0eac",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/1486ba3f935d0eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650896641977,
+        "stop" : 1650896642396,
+        "duration" : 419
+      }
+    }, {
+      "uid" : "bb2f04d69c0b24ee",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/bb2f04d69c0b24ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650896641977,
+        "stop" : 1650896642396,
+        "duration" : 419
+      }
+    }, {
+      "uid" : "be90347a9259b806",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/be90347a9259b806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650896524109,
+        "stop" : 1650896524548,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "fce6b8a9c53636d8",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/fce6b8a9c53636d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803629806,
+        "stop" : 1650803630279,
+        "duration" : 473
+      }
+    }, {
+      "uid" : "81292dba4068e376",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/81292dba4068e376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803478576,
+        "stop" : 1650803479059,
+        "duration" : 483
+      }
+    }, {
+      "uid" : "940995b697f7279e",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/940995b697f7279e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650634500743,
+        "stop" : 1650634501446,
+        "duration" : 703
+      }
+    } ]
+  },
+  "d9f5bdf9c50a15c110bd83b54a1fd1c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1fe471ad99c51063",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/1fe471ad99c51063",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809374980,
+        "stop" : 1650809374984,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "10365e8e2cf7e6e4",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/10365e8e2cf7e6e4",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080509,
+        "stop" : 1650803080511,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "81ce84cdc02df297",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/81ce84cdc02df297",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080509,
+        "stop" : 1650803080511,
+        "duration" : 2
+      }
+    } ]
+  },
+  "a5d3c81f27fa41f53fcc72de681b1d30" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd8e4b25f8489dd5",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/dd8e4b25f8489dd5",
+      "status" : "failed",
+      "statusDetails" : "expected [3] but found [0]",
+      "time" : {
+        "start" : 1650803635699,
+        "stop" : 1650803641475,
+        "duration" : 5776
+      }
+    } ]
+  },
+  "ac780525c997396d3968482080e83c31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "20894e10435b0edb",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/20894e10435b0edb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898667009,
+        "stop" : 1650898670167,
+        "duration" : 3158
+      }
+    }, {
+      "uid" : "2822f45ddfb32fca",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/2822f45ddfb32fca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898474752,
+        "stop" : 1650898478452,
+        "duration" : 3700
+      }
+    }, {
+      "uid" : "c40ac8c1684602c0",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/c40ac8c1684602c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898325188,
+        "stop" : 1650898328343,
+        "duration" : 3155
+      }
+    }, {
+      "uid" : "732b5d3950c5d553",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/732b5d3950c5d553",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896607966,
+        "stop" : 1650896623402,
+        "duration" : 15436
+      }
+    }, {
+      "uid" : "f4ff7a8423fcdf87",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/f4ff7a8423fcdf87",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896607966,
+        "stop" : 1650896623402,
+        "duration" : 15436
+      }
+    }, {
+      "uid" : "e52532575504d14d",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/e52532575504d14d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896490426,
+        "stop" : 1650896505850,
+        "duration" : 15424
+      }
+    }, {
+      "uid" : "b5cf9c3ef5d7b5de",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/b5cf9c3ef5d7b5de",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650803595804,
+        "stop" : 1650803611327,
+        "duration" : 15523
+      }
+    }, {
+      "uid" : "a91e1fa6d8d92230",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/a91e1fa6d8d92230",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650803444628,
+        "stop" : 1650803460018,
+        "duration" : 15390
+      }
+    }, {
+      "uid" : "5a8b5a73fb1ac969",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/5a8b5a73fb1ac969",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='33643']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650634461510,
+        "stop" : 1650634477046,
+        "duration" : 15536
+      }
+    } ]
+  },
+  "f5e19e3127cdb9e9dc7edfb1174c6a19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a4522dc65b56053",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/4a4522dc65b56053",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809465057,
+        "stop" : 1650809465057,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8faeb515592f70e64c2c0a931673ec13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db59c58e71d1752e",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/db59c58e71d1752e",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809464885,
+        "stop" : 1650809464888,
+        "duration" : 3
+      }
+    } ]
+  },
+  "50be96c8f539ae49081fc0d4cf41d8ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f940d8f0edda72dd",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/f940d8f0edda72dd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='46685']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650898701228,
+        "stop" : 1650898718880,
+        "duration" : 17652
+      }
+    }, {
+      "uid" : "3e45d9a53ab8120e",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/3e45d9a53ab8120e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d17ff1e57f40928601109668f42e518c)] -> xpath: //li[@data-category-id='67']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d17ff1e57f40928601109668f42e518c",
+      "time" : {
+        "start" : 1650898497582,
+        "stop" : 1650898503854,
+        "duration" : 6272
+      }
+    } ]
+  },
+  "4ffa1705082e151791334f024a9e6863" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36e5e9ec3005ad89",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/36e5e9ec3005ad89",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809465019,
+        "stop" : 1650809465021,
+        "duration" : 2
+      }
+    } ]
+  },
+  "a6bd88df772133624a8d7b97be2d1ee1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21699f17e97fe596",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/21699f17e97fe596",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650810053087,
+        "stop" : 1650810053089,
+        "duration" : 2
+      }
+    } ]
+  },
+  "8b6e60cf4e9ecaf9d054b833847d9cb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3875b4187fe39a9a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/3875b4187fe39a9a",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809375008,
+        "stop" : 1650809375008,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e5eab6191cd60051",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/e5eab6191cd60051",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080529,
+        "stop" : 1650803080530,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "48391cd74ada1fee",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/48391cd74ada1fee",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080529,
+        "stop" : 1650803080530,
+        "duration" : 1
+      }
+    } ]
+  },
+  "204f8511e883226c1072fe22848c1d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "89aaa1ea2c9a297d",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/89aaa1ea2c9a297d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //select[@class='form-control qty-select d-inline-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650898682072,
+        "stop" : 1650898701201,
+        "duration" : 19129
+      }
+    }, {
+      "uid" : "76d6599ab513961",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/76d6599ab513961",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d17ff1e57f40928601109668f42e518c)] -> xpath: //li[@data-category-id='67']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d17ff1e57f40928601109668f42e518c",
+      "time" : {
+        "start" : 1650898490785,
+        "stop" : 1650898497568,
+        "duration" : 6783
+      }
+    } ]
+  },
+  "21fed516582ddecddc7c8140bf8e98c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "eec5ec4541ac3c19",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/eec5ec4541ac3c19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898656281,
+        "stop" : 1650898663873,
+        "duration" : 7592
+      }
+    }, {
+      "uid" : "f4acb6ea8739d970",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/f4acb6ea8739d970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898463137,
+        "stop" : 1650898471139,
+        "duration" : 8002
+      }
+    }, {
+      "uid" : "2d61ab7e976e5a2c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/2d61ab7e976e5a2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898313602,
+        "stop" : 1650898321129,
+        "duration" : 7527
+      }
+    }, {
+      "uid" : "a785e8f57e26663c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/a785e8f57e26663c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650897172423,
+        "stop" : 1650897180472,
+        "duration" : 8049
+      }
+    }, {
+      "uid" : "edf35345ef683546",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/edf35345ef683546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650896592278,
+        "stop" : 1650896600350,
+        "duration" : 8072
+      }
+    }, {
+      "uid" : "915dd235ade850f6",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/915dd235ade850f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650896473545,
+        "stop" : 1650896481845,
+        "duration" : 8300
+      }
+    }, {
+      "uid" : "bee531abd14be64",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/bee531abd14be64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803577077,
+        "stop" : 1650803589083,
+        "duration" : 12006
+      }
+    }, {
+      "uid" : "4253f64346a89fd2",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/4253f64346a89fd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803429290,
+        "stop" : 1650803436427,
+        "duration" : 7137
+      }
+    }, {
+      "uid" : "de8329eed98fe922",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/de8329eed98fe922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650634421567,
+        "stop" : 1650634460731,
+        "duration" : 39164
+      }
+    }, {
+      "uid" : "3e97061598d4d39e",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/8/allure/#testresult/3e97061598d4d39e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650634161977,
+        "stop" : 1650634196680,
+        "duration" : 34703
+      }
+    } ]
+  },
+  "7d84da09a703e7394c32cfbab272f0a8" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3821075ce79d13a5",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/3821075ce79d13a5",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1650809526049,
+        "stop" : 1650809531625,
+        "duration" : 5576
+      }
+    }, {
+      "uid" : "89f81c5495128987",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/89f81c5495128987",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1650803583077,
+        "stop" : 1650803630601,
+        "duration" : 47524
+      }
+    }, {
+      "uid" : "caa20555dd4b9ee6",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/caa20555dd4b9ee6",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1650803415687,
+        "stop" : 1650803478739,
+        "duration" : 63052
+      }
+    } ]
+  },
+  "ee2170e0d858a6afb42497e754cba02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "258c4d5665e3cb5a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/258c4d5665e3cb5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898670182,
+        "stop" : 1650898681059,
+        "duration" : 10877
+      }
+    }, {
+      "uid" : "2dd24954a3716c53",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/2dd24954a3716c53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898478467,
+        "stop" : 1650898489537,
+        "duration" : 11070
+      }
+    }, {
+      "uid" : "ea5b8bc6c40487ed",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/ea5b8bc6c40487ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898328362,
+        "stop" : 1650898338773,
+        "duration" : 10411
+      }
+    }, {
+      "uid" : "3001fd5eaf44b73",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/3001fd5eaf44b73",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896623412,
+        "stop" : 1650896641965,
+        "duration" : 18553
+      }
+    }, {
+      "uid" : "dd6e17aba5dc035",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/dd6e17aba5dc035",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896623412,
+        "stop" : 1650896641965,
+        "duration" : 18553
+      }
+    }, {
+      "uid" : "16f490b676a5a5c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/16f490b676a5a5c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650896505876,
+        "stop" : 1650896524085,
+        "duration" : 18209
+      }
+    }, {
+      "uid" : "ad5a88688af21ee9",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/ad5a88688af21ee9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650803611345,
+        "stop" : 1650803629789,
+        "duration" : 18444
+      }
+    }, {
+      "uid" : "fccdd4f8da50d6d9",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/fccdd4f8da50d6d9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650803460037,
+        "stop" : 1650803478556,
+        "duration" : 18519
+      }
+    }, {
+      "uid" : "5c187529e73e58b",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/5c187529e73e58b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn btn-sm d-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650634477061,
+        "stop" : 1650634500719,
+        "duration" : 23658
+      }
+    } ]
+  },
+  "6dddf43b636bcff3f1c4b5892ea3fe64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1570718df38674e7",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/1570718df38674e7",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809465064,
+        "stop" : 1650809465064,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a10d4ceeaabf64f2f5afc25402b22bf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "9c89815487121c4",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/9c89815487121c4",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809375000,
+        "stop" : 1650809375000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7eb43b30b4f6a20",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/f7eb43b30b4f6a20",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080523,
+        "stop" : 1650803080523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7d27c5aed267e1f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/d7d27c5aed267e1f",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080523,
+        "stop" : 1650803080523,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bf5cfc6382493ad571daec388ec660f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7a87b263592923ac",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/7a87b263592923ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898681460,
+        "stop" : 1650898682048,
+        "duration" : 588
+      }
+    }, {
+      "uid" : "973c61a93d11be63",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/973c61a93d11be63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898489999,
+        "stop" : 1650898490761,
+        "duration" : 762
+      }
+    } ]
+  },
+  "f27c5b62cb4d50b38c6b86dffb515726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e76dd118d4355307",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/e76dd118d4355307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650810025889,
+        "stop" : 1650810025989,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "e29eb197908b150c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/e29eb197908b150c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803567868,
+        "stop" : 1650803568071,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "2ba5ffe9a3f2b478",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/2ba5ffe9a3f2b478",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803413878,
+        "stop" : 1650803414042,
+        "duration" : 164
+      }
+    } ]
+  },
+  "b032c4b6d18fd18cff694e0b99ab35eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "97a785b4529fb8d3",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/97a785b4529fb8d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650810024511,
+        "stop" : 1650810025769,
+        "duration" : 1258
+      }
+    }, {
+      "uid" : "e6b07c748806f69a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/e6b07c748806f69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803565406,
+        "stop" : 1650803567715,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "885f8015563dceac",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/885f8015563dceac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803412124,
+        "stop" : 1650803413709,
+        "duration" : 1585
+      }
+    } ]
+  },
+  "94de5c1c613c1ca680b2a6eada76d5e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "cc862abea7bc941c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/cc862abea7bc941c",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809374800,
+        "stop" : 1650809374803,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "6e4eaf49a9133ef1",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/6e4eaf49a9133ef1",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080383,
+        "stop" : 1650803080385,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d2031055bf438a6c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/d2031055bf438a6c",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080383,
+        "stop" : 1650803080385,
+        "duration" : 2
+      }
+    } ]
+  },
+  "2e6a94cb7c68e7ea3729be20058903f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ac9f20e2e5bb05f4",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/ac9f20e2e5bb05f4",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809375017,
+        "stop" : 1650809375017,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a48bfcc9f3a4764c",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/a48bfcc9f3a4764c",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080536,
+        "stop" : 1650803080536,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb9c2b71aa8e63c4",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/eb9c2b71aa8e63c4",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650803080536,
+        "stop" : 1650803080536,
+        "duration" : 0
+      }
+    } ]
+  },
+  "575324355821f9926275fec6af50ac99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "181bc171fb87cdbc",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/181bc171fb87cdbc",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809465034,
+        "stop" : 1650809465035,
+        "duration" : 1
+      }
+    } ]
+  },
+  "21984abb0346edf58d68df49a6a00286" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d39a98d56fa51a81",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/d39a98d56fa51a81",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650810052952,
+        "stop" : 1650810052954,
+        "duration" : 2
+      }
+    } ]
+  },
+  "c11a1e17adce209bdfca04364a2158f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "870e881534af01f7",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/870e881534af01f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898663900,
+        "stop" : 1650898666989,
+        "duration" : 3089
+      }
+    }, {
+      "uid" : "96266370533525b6",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/96266370533525b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898471164,
+        "stop" : 1650898474736,
+        "duration" : 3572
+      }
+    }, {
+      "uid" : "ff5cc2bd15ed0b1d",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/ff5cc2bd15ed0b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898321156,
+        "stop" : 1650898325174,
+        "duration" : 4018
+      }
+    }, {
+      "uid" : "d89eeaac5cf198b5",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/d89eeaac5cf198b5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fffc36c7c565a7cfc547cb21ada292c0",
+      "time" : {
+        "start" : 1650897180503,
+        "stop" : 1650897187808,
+        "duration" : 7305
+      }
+    }, {
+      "uid" : "5884036a61c2074f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/5884036a61c2074f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c61d011e67f3475b7868df727c200155)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c61d011e67f3475b7868df727c200155",
+      "time" : {
+        "start" : 1650896600378,
+        "stop" : 1650896607932,
+        "duration" : 7554
+      }
+    }, {
+      "uid" : "d26826f03ff683c1",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/d26826f03ff683c1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (901ec08ef8d6a8e76825b8aa08193cf7)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 901ec08ef8d6a8e76825b8aa08193cf7",
+      "time" : {
+        "start" : 1650896481868,
+        "stop" : 1650896490395,
+        "duration" : 8527
+      }
+    }, {
+      "uid" : "316456046e5dc856",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/316456046e5dc856",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (4f1b459119553f947527d263711b471d)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f1b459119553f947527d263711b471d",
+      "time" : {
+        "start" : 1650803589119,
+        "stop" : 1650803595777,
+        "duration" : 6658
+      }
+    }, {
+      "uid" : "f52f774310164d38",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/f52f774310164d38",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d97587e01f6871021a0eda29a6b27823)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d97587e01f6871021a0eda29a6b27823",
+      "time" : {
+        "start" : 1650803436464,
+        "stop" : 1650803444584,
+        "duration" : 8120
+      }
+    }, {
+      "uid" : "ca143de8760af5a1",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/ca143de8760af5a1",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bac5b8462236f591d737d5ae52a607b2",
+      "time" : {
+        "start" : 1650634460756,
+        "stop" : 1650634461490,
+        "duration" : 734
+      }
+    } ]
+  },
+  "4bf41ff249abee1292455a54621406e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b9b2e884077f646",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/4b9b2e884077f646",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DimaA\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650809465045,
+        "stop" : 1650809465045,
+        "duration" : 0
+      }
+    } ]
+  },
+  "327bfe2a879f42c289c2554d96c3cc67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "f13938a4c362234f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/f13938a4c362234f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650810025785,
+        "stop" : 1650810025883,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "67ece1f81fb0a436",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/67ece1f81fb0a436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803567734,
+        "stop" : 1650803567860,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "5d7b423cec4847f5",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/5d7b423cec4847f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803413724,
+        "stop" : 1650803413870,
+        "duration" : 146
+      }
+    } ]
+  },
+  "b4aea31047bfffb35cb539f4688b0cb7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d12304cc3284dcf2",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/d12304cc3284dcf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650810025995,
+        "stop" : 1650810026098,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "b0c1735a21a1637a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/b0c1735a21a1637a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803568087,
+        "stop" : 1650803568375,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "30a575ad3ffbbaa5",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/30a575ad3ffbbaa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650803414052,
+        "stop" : 1650803414232,
+        "duration" : 180
+      }
+    } ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "uid" : "18abe54fadd5a581",
+  "name" : "Test05 - Verify Information Bar",
+  "fullName" : "sanity.LadyMakeupWeb.test05_verify_informationBar",
+  "historyId" : "4859b1d467bd5447d84fa1ee13091a3f",
+  "time" : {
+    "start" : 1650898338791,
+    "stop" : 1650898339198,
+    "duration" : 407
+  },
+  "description" : "This test verifies the information bar are displayed (using soft assertion",
+  "descriptionHtml" : "<p>This test verifies the information bar are displayed (using soft assertion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1650898307924,
+      "stop" : 1650898313253,
+      "duration" : 5329
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1650898338777,
+      "stop" : 1650898338788,
+      "duration" : 11
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies the information bar are displayed (using soft assertion",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Visibility Of Elements",
+      "time" : {
+        "start" : 1650898338822,
+        "stop" : 1650898339121,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li], [[ChromeDriver: chrome on WINDOWS (78dc86f9822c96cf02eb340c808c2fd0)] -> xpath: //div[@class='collapse navbar-collapse']/ul/li]]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1650898339199,
+      "stop" : 1650898339199,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1650898339201,
+      "stop" : 1650898339885,
+      "duration" : 684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test05_verify_informationBar"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-G4453NC"
+  }, {
+    "name" : "thread",
+    "value" : "4056@DESKTOP-G4453NC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18abe54fadd5a581.json",
+  "parameterValues" : [ "web" ]
+}

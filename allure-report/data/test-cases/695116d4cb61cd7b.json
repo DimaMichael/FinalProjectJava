@@ -1,0 +1,214 @@
+{
+  "uid" : "695116d4cb61cd7b",
+  "name" : "Test01 - Verify Hello Header",
+  "fullName" : "sanity.LadyMakeupWeb.test01_verify_HelloHeader",
+  "historyId" : "21fed516582ddecddc7c8140bf8e98c1",
+  "time" : {
+    "start" : 1650897172423,
+    "stop" : 1650897180472,
+    "duration" : 8049
+  },
+  "description" : "This test login and verifies the hello header",
+  "descriptionHtml" : "<p>This test login and verifies the hello header</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1650897172055,
+      "stop" : 1650897172279,
+      "duration" : 224
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test login and verifies the hello header",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Login to Web",
+      "time" : {
+        "start" : 1650897172457,
+        "stop" : 1650897180277,
+        "duration" : 7820
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1650897172498,
+          "stop" : 1650897172679,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> id: _login]"
+        }, {
+          "name" : "text",
+          "value" : "DimArbazi"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1650897172698,
+          "stop" : 1650897172851,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> id: _password]"
+        }, {
+          "name" : "text",
+          "value" : "123456Dima!"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1650897172881,
+          "stop" : 1650897180277,
+          "duration" : 7396
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> xpath: //button[@type='submit']]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "DimArbazi"
+      }, {
+        "name" : "pass",
+        "value" : "123456Dima!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Text In Element",
+      "time" : {
+        "start" : 1650897180309,
+        "stop" : 1650897180395,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> id: flashMessage]"
+      }, {
+        "name" : "expected",
+        "value" : "Hello DimArbazi!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1650897180480,
+      "stop" : 1650897180480,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_verify_HelloHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-G4453NC"
+  }, {
+    "name" : "thread",
+    "value" : "3344@DESKTOP-G4453NC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "695116d4cb61cd7b.json",
+  "parameterValues" : [ "web" ]
+}

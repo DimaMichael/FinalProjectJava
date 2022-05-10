@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //select[@class='form-control qty-select d-inline-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "89aaa1ea2c9a297d",
+        "parentUid" : "048a8eb187333b320bb032f13ace3fb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898682072,
+          "stop" : 1650898701201,
+          "duration" : 19129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "4 x", "4 x" ]
+      } ],
+      "uid" : "048a8eb187333b320bb032f13ace3fb9"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='46685']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "f940d8f0edda72dd",
+        "parentUid" : "77bf6b0135e007d47eb6f54683c9109d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898701228,
+          "stop" : 1650898718880,
+          "duration" : 17652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "2 x", "2 x" ]
+      } ],
+      "uid" : "77bf6b0135e007d47eb6f54683c9109d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

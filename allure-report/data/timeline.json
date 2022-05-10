@@ -1,0 +1,505 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-G4453NC",
+    "children" : [ {
+      "name" : "21360@DESKTOP-G4453NC.main(1)",
+      "children" : [ {
+        "name" : "Test05 - Verify Information Bar",
+        "uid" : "d6ae80b2407d566f",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898681075,
+          "stop" : 1650898681446,
+          "duration" : 371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Move To MakeupBoxes",
+        "uid" : "870e881534af01f7",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898663900,
+          "stop" : 1650898666989,
+          "duration" : 3089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06 - Verify Logo Image",
+        "uid" : "7a87b263592923ac",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898681460,
+          "stop" : 1650898682048,
+          "duration" : 588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "89aaa1ea2c9a297d",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898682072,
+          "stop" : 1650898701201,
+          "duration" : 19129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "4 x", "4 x" ]
+      }, {
+        "name" : "Test01 - Verify Hello Header",
+        "uid" : "eec5ec4541ac3c19",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898656281,
+          "stop" : 1650898663873,
+          "duration" : 7592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify Order Item",
+        "uid" : "20894e10435b0edb",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898667009,
+          "stop" : 1650898670167,
+          "duration" : 3158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify Order Item Deletion",
+        "uid" : "258c4d5665e3cb5a",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898670182,
+          "stop" : 1650898681059,
+          "duration" : 10877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "f940d8f0edda72dd",
+        "parentUid" : "648e34d3f9bc563085be7e69ce66fd06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898701228,
+          "stop" : 1650898718880,
+          "duration" : 17652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "2 x", "2 x" ]
+      } ],
+      "uid" : "648e34d3f9bc563085be7e69ce66fd06"
+    }, {
+      "name" : "18552@DESKTOP-G4453NC.main(1)",
+      "children" : [ {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "31c80a2571596375",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898497582,
+          "stop" : 1650898503854,
+          "duration" : 6272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "2 x", "2 x" ]
+      }, {
+        "name" : "Test02 - Verify Move To MakeupBoxes",
+        "uid" : "750c0f2386c13873",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898471164,
+          "stop" : 1650898474736,
+          "duration" : 3572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify Order Item",
+        "uid" : "86c1e3af25940c76",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898474752,
+          "stop" : 1650898478452,
+          "duration" : 3700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "d33e3c5500901b91",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898490785,
+          "stop" : 1650898497568,
+          "duration" : 6783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "4 x", "4 x" ]
+      }, {
+        "name" : "Test06 - Verify Logo Image",
+        "uid" : "d98b02071f8c84c8",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898489999,
+          "stop" : 1650898490761,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Hello Header",
+        "uid" : "9ac7e2c814a3fe0d",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898463137,
+          "stop" : 1650898471139,
+          "duration" : 8002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Information Bar",
+        "uid" : "21b77e0cdf52028",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898489554,
+          "stop" : 1650898489986,
+          "duration" : 432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify Order Item Deletion",
+        "uid" : "aa9f1ac3316e5dcc",
+        "parentUid" : "1660ff283448a9fcebec6f82812e7237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898478467,
+          "stop" : 1650898489537,
+          "duration" : 11070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1660ff283448a9fcebec6f82812e7237"
+    }, {
+      "name" : "19668@DESKTOP-G4453NC.main(1)",
+      "children" : [ {
+        "name" : "Test02 - Verify Move To MakeupBoxes",
+        "uid" : "c44b19c826c12717",
+        "parentUid" : "8a356b9139b28741dcb991bb1b912e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650896600378,
+          "stop" : 1650896607932,
+          "duration" : 7554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Hello Header",
+        "uid" : "9d2c409ec50d7831",
+        "parentUid" : "8a356b9139b28741dcb991bb1b912e50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650896592278,
+          "stop" : 1650896600350,
+          "duration" : 8072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Information Bar",
+        "uid" : "afa843d91afecca5",
+        "parentUid" : "8a356b9139b28741dcb991bb1b912e50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650896641977,
+          "stop" : 1650896642396,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify Order Item Deletion",
+        "uid" : "601bb64fe27f6974",
+        "parentUid" : "8a356b9139b28741dcb991bb1b912e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650896623412,
+          "stop" : 1650896641965,
+          "duration" : 18553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify Order Item",
+        "uid" : "ab1e499579dc67be",
+        "parentUid" : "8a356b9139b28741dcb991bb1b912e50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650896607966,
+          "stop" : 1650896623402,
+          "duration" : 15436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "8a356b9139b28741dcb991bb1b912e50"
+    }, {
+      "name" : "4056@DESKTOP-G4453NC.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Hello Header",
+        "uid" : "673c761a42c35039",
+        "parentUid" : "8878661026d08933f195f24979fc6058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898313602,
+          "stop" : 1650898321129,
+          "duration" : 7527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify Order Item Deletion",
+        "uid" : "bcfee25fe5df67c0",
+        "parentUid" : "8878661026d08933f195f24979fc6058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898328362,
+          "stop" : 1650898338773,
+          "duration" : 10411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify Order Item",
+        "uid" : "d256eacb928d8243",
+        "parentUid" : "8878661026d08933f195f24979fc6058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898325188,
+          "stop" : 1650898328343,
+          "duration" : 3155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Move To MakeupBoxes",
+        "uid" : "2d4fe0742217e3b5",
+        "parentUid" : "8878661026d08933f195f24979fc6058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898321156,
+          "stop" : 1650898325174,
+          "duration" : 4018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Information Bar",
+        "uid" : "18abe54fadd5a581",
+        "parentUid" : "8878661026d08933f195f24979fc6058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898338791,
+          "stop" : 1650898339198,
+          "duration" : 407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "8878661026d08933f195f24979fc6058"
+    }, {
+      "name" : "3344@DESKTOP-G4453NC.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Hello Header",
+        "uid" : "695116d4cb61cd7b",
+        "parentUid" : "ae63dd0ea525671896c0676f889064dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650897172423,
+          "stop" : 1650897180472,
+          "duration" : 8049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Move To MakeupBoxes",
+        "uid" : "827483bd08d3fff4",
+        "parentUid" : "ae63dd0ea525671896c0676f889064dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650897180503,
+          "stop" : 1650897187808,
+          "duration" : 7305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ae63dd0ea525671896c0676f889064dd"
+    } ],
+    "uid" : "3d25969d78945fc3a87909347198f639"
+  } ]
+}
