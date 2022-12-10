@@ -1,0 +1,358 @@
+{
+  "uid" : "adac897bc9f80b3a",
+  "name" : "Test02 - Verify Move To MakeupBoxes",
+  "fullName" : "sanity.LadyMakeupWeb.test02_moveTo_makeupBoxes",
+  "historyId" : "c11a1e17adce209bdfca04364a2158f9",
+  "time" : {
+    "start" : 1652196411996,
+    "stop" : 1652196416461,
+    "duration" : 4465
+  },
+  "description" : "This test verifies the navigate to MakeupBoxes page",
+  "descriptionHtml" : "<p>This test verifies the navigate to MakeupBoxes page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1652196396810,
+      "stop" : 1652196403917,
+      "duration" : 7107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1652196411986,
+      "stop" : 1652196411994,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies the navigate to MakeupBoxes page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Choose a Makeup",
+      "time" : {
+        "start" : 1652196411996,
+        "stop" : 1652196416213,
+        "duration" : 4217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover Element",
+        "time" : {
+          "start" : 1652196412022,
+          "stop" : 1652196414672,
+          "duration" : 2650
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (eb347b42e38525ce7f14abf8f4f1eb13)] -> id: nav-cat-3]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1652196414693,
+          "stop" : 1652196416213,
+          "duration" : 1520
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (eb347b42e38525ce7f14abf8f4f1eb13)] -> xpath: //ul[@id='in_category_nav']/li[2]]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text In Element",
+      "time" : {
+        "start" : 1652196416254,
+        "stop" : 1652196416409,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (eb347b42e38525ce7f14abf8f4f1eb13)] -> id: title_product_listing]"
+      }, {
+        "name" : "expected",
+        "value" : "CASES FOR COSMETICS, MAKE-UP TABLES"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1652196416464,
+      "stop" : 1652196416464,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1652196436001,
+      "stop" : 1652196436663,
+      "duration" : 662
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_moveTo_makeupBoxes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.LadyMakeupWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-G4453NC"
+  }, {
+    "name" : "thread",
+    "value" : "13376@DESKTOP-G4453NC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eeb54fa9181d48f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898663900,
+        "stop" : 1650898666989,
+        "duration" : 3089
+      }
+    }, {
+      "uid" : "7679d144bc560e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898471164,
+        "stop" : 1650898474736,
+        "duration" : 3572
+      }
+    }, {
+      "uid" : "33e3b7e440f1ccf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898321156,
+        "stop" : 1650898325174,
+        "duration" : 4018
+      }
+    }, {
+      "uid" : "9c4e7569e4edc5bd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fffc36c7c565a7cfc547cb21ada292c0",
+      "time" : {
+        "start" : 1650897180503,
+        "stop" : 1650897187808,
+        "duration" : 7305
+      }
+    }, {
+      "uid" : "ba3bc0986adff09b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c61d011e67f3475b7868df727c200155)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c61d011e67f3475b7868df727c200155",
+      "time" : {
+        "start" : 1650896600378,
+        "stop" : 1650896607932,
+        "duration" : 7554
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "870e881534af01f7",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/870e881534af01f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898663900,
+          "stop" : 1650898666989,
+          "duration" : 3089
+        }
+      }, {
+        "uid" : "96266370533525b6",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/96266370533525b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898471164,
+          "stop" : 1650898474736,
+          "duration" : 3572
+        }
+      }, {
+        "uid" : "ff5cc2bd15ed0b1d",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/16/allure/#testresult/ff5cc2bd15ed0b1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650898321156,
+          "stop" : 1650898325174,
+          "duration" : 4018
+        }
+      }, {
+        "uid" : "d89eeaac5cf198b5",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/15/allure/#testresult/d89eeaac5cf198b5",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (fffc36c7c565a7cfc547cb21ada292c0)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fffc36c7c565a7cfc547cb21ada292c0",
+        "time" : {
+          "start" : 1650897180503,
+          "stop" : 1650897187808,
+          "duration" : 7305
+        }
+      }, {
+        "uid" : "5884036a61c2074f",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/14/allure/#testresult/5884036a61c2074f",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c61d011e67f3475b7868df727c200155)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c61d011e67f3475b7868df727c200155",
+        "time" : {
+          "start" : 1650896600378,
+          "stop" : 1650896607932,
+          "duration" : 7554
+        }
+      }, {
+        "uid" : "d26826f03ff683c1",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/12/allure/#testresult/d26826f03ff683c1",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (901ec08ef8d6a8e76825b8aa08193cf7)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 901ec08ef8d6a8e76825b8aa08193cf7",
+        "time" : {
+          "start" : 1650896481868,
+          "stop" : 1650896490395,
+          "duration" : 8527
+        }
+      }, {
+        "uid" : "316456046e5dc856",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/11/allure/#testresult/316456046e5dc856",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (4f1b459119553f947527d263711b471d)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f1b459119553f947527d263711b471d",
+        "time" : {
+          "start" : 1650803589119,
+          "stop" : 1650803595777,
+          "duration" : 6658
+        }
+      }, {
+        "uid" : "f52f774310164d38",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/10/allure/#testresult/f52f774310164d38",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d97587e01f6871021a0eda29a6b27823)] -> xpath: //li[@data-category-id='60']/a] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d97587e01f6871021a0eda29a6b27823",
+        "time" : {
+          "start" : 1650803436464,
+          "stop" : 1650803444584,
+          "duration" : 8120
+        }
+      }, {
+        "uid" : "ca143de8760af5a1",
+        "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/9/allure/#testresult/ca143de8760af5a1",
+        "status" : "broken",
+        "statusDetails" : "move target out of bounds\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bac5b8462236f591d737d5ae52a607b2",
+        "time" : {
+          "start" : 1650634460756,
+          "stop" : 1650634461490,
+          "duration" : 734
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "adac897bc9f80b3a.json",
+  "parameterValues" : [ "web" ]
+}
