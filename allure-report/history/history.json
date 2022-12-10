@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "e4c663b242258480",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/e4c663b242258480",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652196428615,
+        "stop" : 1652196428976,
+        "duration" : 361
+      }
+    }, {
       "uid" : "d6ae80b2407d566f",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/d6ae80b2407d566f",
       "status" : "passed",
@@ -156,13 +165,23 @@
   "ac780525c997396d3968482080e83c31" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c0e26caf1a44358",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/c0e26caf1a44358",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"btn btn-light  d-flex align-items-center mx-auto btn-quickcart-add\" product_id=\"33643\" product_type=\"simple\">...</a> is not clickable at point (579, 676). Other element would receive the click: <div id=\"quickcart-bottom-body\" class=\"container-fluid align-items-center justify-content-between d-flex h-100 px-1 px-md-2\">...</div>\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "time" : {
+        "start" : 1652196416476,
+        "stop" : 1652196417907,
+        "duration" : 1431
+      }
+    }, {
       "uid" : "20894e10435b0edb",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/20894e10435b0edb",
       "status" : "passed",
@@ -296,13 +315,23 @@
   "50be96c8f539ae49081fc0d4cf41d8ad" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "ac4481babf9b7079",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/ac4481babf9b7079",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"btn btn-light  d-flex align-items-center mx-auto btn-quickcart-add\" product_id=\"46685\" product_type=\"simple\">...</a> is not clickable at point (579, 679). Other element would receive the click: <div id=\"quickcart-bottom-body\" class=\"container-fluid align-items-center justify-content-between d-flex h-100 px-1 px-md-2\">...</div>\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "time" : {
+        "start" : 1652196432963,
+        "stop" : 1652196435996,
+        "duration" : 3033
+      }
+    }, {
       "uid" : "f940d8f0edda72dd",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/f940d8f0edda72dd",
       "status" : "broken",
@@ -410,13 +439,23 @@
   "204f8511e883226c1072fe22848c1d6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a0ac5d9b4c7e885f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/a0ac5d9b4c7e885f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"btn btn-light  d-flex align-items-center mx-auto btn-quickcart-add\" product_id=\"46685\" product_type=\"simple\">...</a> is not clickable at point (579, 679). Other element would receive the click: <div id=\"quickcart-bottom-body\" class=\"container-fluid align-items-center justify-content-between d-flex h-100 px-1 px-md-2\">...</div>\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "time" : {
+        "start" : 1652196429911,
+        "stop" : 1652196432952,
+        "duration" : 3041
+      }
+    }, {
       "uid" : "89aaa1ea2c9a297d",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/89aaa1ea2c9a297d",
       "status" : "broken",
@@ -443,11 +482,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "207e47d918d6b6e1",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/207e47d918d6b6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652196404097,
+        "stop" : 1652196411977,
+        "duration" : 7880
+      }
+    }, {
       "uid" : "eec5ec4541ac3c19",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/eec5ec4541ac3c19",
       "status" : "passed",
@@ -585,11 +633,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "ef33d187ec547fa2",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/ef33d187ec547fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652196417930,
+        "stop" : 1652196428595,
+        "duration" : 10665
+      }
+    }, {
       "uid" : "258c4d5665e3cb5a",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/258c4d5665e3cb5a",
       "status" : "passed",
@@ -743,13 +800,23 @@
   "bf5cfc6382493ad571daec388ec660f1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "be6a2b80d84708bb",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/be6a2b80d84708bb",
+      "status" : "broken",
+      "statusDetails" : "unexpected alert open: {Alert text : Do you want to delete items from the basket?}\n  (Session info: chrome=101.0.4951.54): Do you want to delete items from the basket?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "time" : {
+        "start" : 1652196428988,
+        "stop" : 1652196429888,
+        "duration" : 900
+      }
+    }, {
       "uid" : "7a87b263592923ac",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/7a87b263592923ac",
       "status" : "passed",
@@ -974,11 +1041,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "adac897bc9f80b3a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/19/allure/#testresult/adac897bc9f80b3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652196411996,
+        "stop" : 1652196416461,
+        "duration" : 4465
+      }
+    }, {
       "uid" : "870e881534af01f7",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/870e881534af01f7",
       "status" : "passed",

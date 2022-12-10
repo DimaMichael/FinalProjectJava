@@ -14,8 +14,8 @@ public class WebFlows extends CommonOps {
 
     @Step("Business Flow: Login to Web")
     public static void login(String user, String pass) {
-        UIActions.updateText(ladyMakeupLogin.txt_username, user); 
-        UIActions.updateText(ladyMakeupLogin.txt_password, pass); 
+        UIActions.updateText(ladyMakeupLogin.txt_username, user);
+        UIActions.updateText(ladyMakeupLogin.txt_password, pass);
         UIActions.click(ladyMakeupLogin.btn_login);
     }
 
@@ -23,8 +23,8 @@ public class WebFlows extends CommonOps {
     public static void loginDB() {
         String query = "SELECT name, password FROM Employees WHERE id='4'";
         List<String> cred = DBActions.getCredentials(query);
-        UIActions.updateText(ladyMakeupLogin.txt_username, cred.get(0));
-        UIActions.updateText(ladyMakeupLogin.txt_password, cred.get(1));
+        UIActions.updateText(ladyMakeupLogin.txt_username, cred.get(0)); //DimArbazi
+        UIActions.updateText(ladyMakeupLogin.txt_password, cred.get(1)); //123456Dima!
         UIActions.click(ladyMakeupLogin.btn_login);
     }
 
@@ -49,7 +49,7 @@ public class WebFlows extends CommonOps {
         UIActions.alertAccept();
     }
 
-    @Step("Business Flow: Choose 4 Items ") 
+    @Step("Business Flow: Choose 4 Items ")
     public static void chooseManyItems(String amount) throws InterruptedException {
         UIActions.mouseHover(ladyMakeupCategoryNavbar.btn_accessories);
         UIActions.click(ladyMakeupAccessories.btn_puffs_and_sponges);
@@ -60,16 +60,26 @@ public class WebFlows extends CommonOps {
         UIActions.click(ladyMakeupCartPage.btn_deleteItem);
         UIActions.alertAccept();
     }
-    
-   @Step("Business Flow: Search And Verify Item") 
-   public static void searchAndVerifyItem(String itemName ,String shouldExist) {
-       UIActions.updateText(ladyMakeupMain.txt_search, itemName);
-       UIActions.click(ladyMakeupMain.btn_searchSubmit);
-       if (shouldExist.equalsIgnoreCase("not exist"))
-           Verifications.existenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
-       else if (shouldExist.equalsIgnoreCase("exist"))
-           Verifications.notExistenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
-       else
-           throw new RuntimeException("Invalid Expected Output in Data Driven testing");
-   }
+
+
+
+//
+//        if (shouldExist.equalsIgnoreCase("not exist"))
+//            Verifications.existenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
+//        else if (shouldExist.equalsIgnoreCase("exist"))
+//            Verifications.notExistenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
+//        else
+//            throw new RuntimeException("Invalid Expected Output in Data Driven testing");
+//    }
+//    @Step("Business Flow: Search And Verify Item")
+//    public static void searchAndVerifyItem(String itemName ,String shouldExist) {
+//        UIActions.updateText(ladyMakeupMain.txt_search, itemName);
+//        UIActions.click(ladyMakeupMain.btn_searchSubmit);
+//        if (shouldExist.equalsIgnoreCase("not exist"))
+//            Verifications.existenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
+//        else if (shouldExist.equalsIgnoreCase("exist"))
+//            Verifications.notExistenceOfElement(ladyMakeupMain.txt_afterSearchNotExist);
+//        else
+//            throw new RuntimeException("Invalid Expected Output in Data Driven testing");
+//    }
 }

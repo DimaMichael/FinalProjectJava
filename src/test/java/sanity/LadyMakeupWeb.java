@@ -49,12 +49,11 @@ public class LadyMakeupWeb extends CommonOps {
         Verifications.visualElement("LadymakeupLogo");
     }
 
-    @Test(description = "Test07 - Verify Item Amount ", dataProvider = "data-provider-items", dataProviderClass = utilities.ManageDDT.class) //Need to Checckk!
+    @Test(description = "Test07 - Verify Item Amount ", dataProvider = "data-provider-items", dataProviderClass = utilities.ManageDDT.class)
     @Description("This test verifies amount of same item")
     public void test07_verify_itemAmount(String amount , String expected) throws InterruptedException {
         WebFlows.chooseManyItems(amount);
         Verifications.verifyTextInElement(ladyMakeupCartPage.text_numberOfProductsInCart, expected);
-//        Verifications.numberOfElements(ladyMakeupCartPage.text_numberOfProductsInCart, "4 x"); //Need to check , Now Working with Hard Coded
     }
 
 

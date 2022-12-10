@@ -18,14 +18,10 @@ public class Verifications extends CommonOps {
         assertEquals(elem.getText(), expected);
     }
 
-    @Step("Verify Number Of Elements") //Hard Coded
+    @Step("Verify Number Of Elements")
     public static void numberOfElements(String elems, String expected){
         assertEquals(elems, expected);
     }
-//    @Step("Verify Number Of Elements") //Need to check about a element, get Error
-//    public static void numberOfElements(WebElement elems, String expected){
-//        assertEquals(elems.getText(), expected);
-//    }
 
     @Step("Verify Visibility Of Elements")
     public static void visibilityOfElements(List<WebElement> elems) {

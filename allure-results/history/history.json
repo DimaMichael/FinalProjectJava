@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "d6ae80b2407d566f",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/d6ae80b2407d566f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898681075,
+        "stop" : 1650898681446,
+        "duration" : 371
+      }
+    }, {
       "uid" : "ce6cf015bfceaa59",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/ce6cf015bfceaa59",
       "status" : "passed",
@@ -149,11 +158,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "20894e10435b0edb",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/20894e10435b0edb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898667009,
+        "stop" : 1650898670167,
+        "duration" : 3158
+      }
+    }, {
       "uid" : "2822f45ddfb32fca",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/2822f45ddfb32fca",
       "status" : "passed",
@@ -278,13 +296,23 @@
   "50be96c8f539ae49081fc0d4cf41d8ad" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f940d8f0edda72dd",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/f940d8f0edda72dd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='46685']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650898701228,
+        "stop" : 1650898718880,
+        "duration" : 17652
+      }
+    }, {
       "uid" : "3e45d9a53ab8120e",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/3e45d9a53ab8120e",
       "status" : "broken",
@@ -382,13 +410,23 @@
   "204f8511e883226c1072fe22848c1d6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "89aaa1ea2c9a297d",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/89aaa1ea2c9a297d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //select[@class='form-control qty-select d-inline-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650898682072,
+        "stop" : 1650898701201,
+        "duration" : 19129
+      }
+    }, {
       "uid" : "76d6599ab513961",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/76d6599ab513961",
       "status" : "broken",
@@ -405,11 +443,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "eec5ec4541ac3c19",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/eec5ec4541ac3c19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898656281,
+        "stop" : 1650898663873,
+        "duration" : 7592
+      }
+    }, {
       "uid" : "f4acb6ea8739d970",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/f4acb6ea8739d970",
       "status" : "passed",
@@ -538,11 +585,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "258c4d5665e3cb5a",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/258c4d5665e3cb5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898670182,
+        "stop" : 1650898681059,
+        "duration" : 10877
+      }
+    }, {
       "uid" : "2dd24954a3716c53",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/2dd24954a3716c53",
       "status" : "passed",
@@ -689,11 +745,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7a87b263592923ac",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/7a87b263592923ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898681460,
+        "stop" : 1650898682048,
+        "duration" : 588
+      }
+    }, {
       "uid" : "973c61a93d11be63",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/973c61a93d11be63",
       "status" : "passed",
@@ -909,11 +974,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "870e881534af01f7",
+      "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/18/allure/#testresult/870e881534af01f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898663900,
+        "stop" : 1650898666989,
+        "duration" : 3089
+      }
+    }, {
       "uid" : "96266370533525b6",
       "reportUrl" : "http://localhost:9000/job/Sanity%20Tests%20Web/17/allure/#testresult/96266370533525b6",
       "status" : "passed",

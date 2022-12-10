@@ -5,30 +5,64 @@
     "name" : "sanity.LadyMakeupWeb",
     "children" : [ {
       "name" : "test01_verify_HelloHeader",
-      "uid" : "eec5ec4541ac3c19",
+      "uid" : "207e47d918d6b6e1",
       "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
       "status" : "passed",
       "time" : {
-        "start" : 1650898656281,
-        "stop" : 1650898663873,
-        "duration" : 7592
+        "start" : 1652196404097,
+        "stop" : 1652196411977,
+        "duration" : 7880
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 4,
+      "retriesCount" : 5,
       "retriesStatusChange" : false,
       "parameters" : [ "web" ]
     }, {
       "name" : "test02_moveTo_makeupBoxes",
-      "uid" : "870e881534af01f7",
+      "uid" : "adac897bc9f80b3a",
       "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
       "status" : "passed",
       "time" : {
-        "start" : 1650898663900,
-        "stop" : 1650898666989,
-        "duration" : 3089
+        "start" : 1652196411996,
+        "stop" : 1652196416461,
+        "duration" : 4465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test03_verify_orderItem",
+      "uid" : "c0e26caf1a44358",
+      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652196416476,
+        "stop" : 1652196417907,
+        "duration" : 1431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : true,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test04_verify_orderItemDeletion",
+      "uid" : "ef33d187ec547fa2",
+      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652196417930,
+        "stop" : 1652196428595,
+        "duration" : 10665
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,105 +72,71 @@
       "retriesStatusChange" : true,
       "parameters" : [ "web" ]
     }, {
-      "name" : "test03_verify_orderItem",
-      "uid" : "20894e10435b0edb",
-      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650898667009,
-        "stop" : 1650898670167,
-        "duration" : 3158
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test04_verify_orderItemDeletion",
-      "uid" : "258c4d5665e3cb5a",
-      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650898670182,
-        "stop" : 1650898681059,
-        "duration" : 10877
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "web" ]
-    }, {
       "name" : "test05_verify_informationBar",
-      "uid" : "d6ae80b2407d566f",
+      "uid" : "e4c663b242258480",
       "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
       "status" : "passed",
       "time" : {
-        "start" : 1650898681075,
-        "stop" : 1650898681446,
-        "duration" : 371
+        "start" : 1652196428615,
+        "stop" : 1652196428976,
+        "duration" : 361
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
+      "retriesCount" : 4,
       "retriesStatusChange" : false,
       "parameters" : [ "web" ]
     }, {
       "name" : "test06_verify_logoImage",
-      "uid" : "7a87b263592923ac",
-      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650898681460,
-        "stop" : 1650898682048,
-        "duration" : 588
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test07_verify_itemAmount",
-      "uid" : "89aaa1ea2c9a297d",
+      "uid" : "be6a2b80d84708bb",
       "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
       "status" : "broken",
       "time" : {
-        "start" : 1650898682072,
-        "stop" : 1650898701201,
-        "duration" : 19129
+        "start" : 1652196428988,
+        "stop" : 1652196429888,
+        "duration" : 900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : true,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test07_verify_itemAmount",
+      "uid" : "a0ac5d9b4c7e885f",
+      "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652196429911,
+        "stop" : 1652196432952,
+        "duration" : 3041
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 2,
       "retriesStatusChange" : false,
       "parameters" : [ "web", "4 x", "4 x" ]
     }, {
       "name" : "test07_verify_itemAmount",
-      "uid" : "f940d8f0edda72dd",
+      "uid" : "ac4481babf9b7079",
       "parentUid" : "4abbb1735b0b9e8501f103803b69aebf",
       "status" : "broken",
       "time" : {
-        "start" : 1650898701228,
-        "stop" : 1650898718880,
-        "duration" : 17652
+        "start" : 1652196432963,
+        "stop" : 1652196435996,
+        "duration" : 3033
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 2,
       "retriesStatusChange" : false,
       "parameters" : [ "web", "2 x", "2 x" ]
     } ],

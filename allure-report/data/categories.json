@@ -4,47 +4,85 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //select[@class='form-control qty-select d-inline-block']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "name" : "element click intercepted: Element <a href=\"#\" class=\"btn btn-light  d-flex align-items-center mx-auto btn-quickcart-add\" product_id=\"33643\" product_type=\"simple\">...</a> is not clickable at point (579, 676). Other element would receive the click: <div id=\"quickcart-bottom-body\" class=\"container-fluid align-items-center justify-content-between d-flex h-100 px-1 px-md-2\">...</div>\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
       "children" : [ {
-        "name" : "Test07 - Verify Item Amount ",
-        "uid" : "89aaa1ea2c9a297d",
-        "parentUid" : "048a8eb187333b320bb032f13ace3fb9",
+        "name" : "Test03 - Verify Order Item",
+        "uid" : "c0e26caf1a44358",
+        "parentUid" : "14634818e04210922b22523c3a211d9a",
         "status" : "broken",
         "time" : {
-          "start" : 1650898682072,
-          "stop" : 1650898701201,
-          "duration" : 19129
+          "start" : 1652196416476,
+          "stop" : 1652196417907,
+          "duration" : 1431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "14634818e04210922b22523c3a211d9a"
+    }, {
+      "name" : "unexpected alert open: {Alert text : Do you want to delete items from the basket?}\n  (Session info: chrome=101.0.4951.54): Do you want to delete items from the basket?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "children" : [ {
+        "name" : "Test06 - Verify Logo Image",
+        "uid" : "be6a2b80d84708bb",
+        "parentUid" : "183e68427b0318c90941a0f730669dee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652196428988,
+          "stop" : 1652196429888,
+          "duration" : 900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "183e68427b0318c90941a0f730669dee"
+    }, {
+      "name" : "element click intercepted: Element <a href=\"#\" class=\"btn btn-light  d-flex align-items-center mx-auto btn-quickcart-add\" product_id=\"46685\" product_type=\"simple\">...</a> is not clickable at point (579, 679). Other element would receive the click: <div id=\"quickcart-bottom-body\" class=\"container-fluid align-items-center justify-content-between d-flex h-100 px-1 px-md-2\">...</div>\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-G4453NC', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\DimaA\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb347b42e38525ce7f14abf8f4f1eb13",
+      "children" : [ {
+        "name" : "Test07 - Verify Item Amount ",
+        "uid" : "a0ac5d9b4c7e885f",
+        "parentUid" : "69f98e8a65b4cdd50187ae25f3e10776",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652196429911,
+          "stop" : 1652196432952,
+          "duration" : 3041
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 2,
         "retriesStatusChange" : false,
         "parameters" : [ "web", "4 x", "4 x" ]
-      } ],
-      "uid" : "048a8eb187333b320bb032f13ace3fb9"
-    }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@product_id='46685']' (tried for 5 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+      }, {
         "name" : "Test07 - Verify Item Amount ",
-        "uid" : "f940d8f0edda72dd",
-        "parentUid" : "77bf6b0135e007d47eb6f54683c9109d",
+        "uid" : "ac4481babf9b7079",
+        "parentUid" : "69f98e8a65b4cdd50187ae25f3e10776",
         "status" : "broken",
         "time" : {
-          "start" : 1650898701228,
-          "stop" : 1650898718880,
-          "duration" : 17652
+          "start" : 1652196432963,
+          "stop" : 1652196435996,
+          "duration" : 3033
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 2,
         "retriesStatusChange" : false,
         "parameters" : [ "web", "2 x", "2 x" ]
       } ],
-      "uid" : "77bf6b0135e007d47eb6f54683c9109d"
+      "uid" : "69f98e8a65b4cdd50187ae25f3e10776"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

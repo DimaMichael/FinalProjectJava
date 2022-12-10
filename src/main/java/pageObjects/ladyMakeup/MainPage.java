@@ -16,12 +16,4 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = "//div[@class='collapse navbar-collapse']/ul/li")
     public List<WebElement> list_informationBar;
 
-//    @FindBy(how = How.ID, using = "main_search")
-//    public WebElement txt_search;
-//
-//    @FindBy(how = How.CLASS_NAME, using = "//div[@class='alert alert-info']")
-//    public WebElement txt_afterSearchNotExist;
-//
-//    @FindBy(how = How.ID, using = "main_search_submit")
-//    public WebElement btn_searchSubmit;
 }
