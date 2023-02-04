@@ -19,7 +19,7 @@ The project is an example of infrastructure for automation testing of different 
 - Visual Testing
 - DB support *CI support
 # List of applications were used in this project:
-- Grafana webpage - Web based application
+- ladymakeup webpage - Web based application
 - Mortgage calculator - Mobile application
 - Grafana API - Web API
 - Electron application
