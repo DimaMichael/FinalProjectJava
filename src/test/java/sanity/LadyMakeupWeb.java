@@ -13,8 +13,8 @@ public class LadyMakeupWeb extends CommonOps {
     @Test(description = "Test01 - Verify Hello Header")
     @Description("This test login and verifies the hello header")
     public void test01_verify_HelloHeader(){
-        WebFlows.login("DimArbazi", "123456Dima!");
-        Verifications.verifyTextInElement(ladyMakeupMain.hello_userName, "Hello DimArbazi!");
+        WebFlows.login("*********", "********");
+        Verifications.verifyTextInElement(ladyMakeupMain.hello_userName, "Hello *********!");
     }
 
     @Test(description = "Test02 - Verify Move To MakeupBoxes")
